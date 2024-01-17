@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  display: grid;
+}
+hr {
+  width: 90%;
+  border: 1px solid white;
+}
+.main {
+  width: 400px;
+  background-color: rgba(232, 84, 16, 0.977);
+  color: white;
+}
+.text{
+  margin-right: 50px;
+}
+.item-container {
+  margin: 5px 0px;
+  background-color: rgba(243, 143, 96, 0.977);
+  height: 70px;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.add-item-container {
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.buttons>*:hover{
+  cursor: pointer;
+}
+.add-item-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+input,
+button {
+  height: 50px;
+  font-size: 16px;
+  border: none;
+}
+button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  width: 120px;
+  font-weight: bold;
+}
+input {
+  padding: 0px 10px;
+}
+input:focus{
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
